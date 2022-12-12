@@ -8,7 +8,7 @@ import {
 
   
   Given("A web browser is at the loged in", () => {
-    cy.login('dmytromaslo@gmail.com','123456789!Pp')
+    cy.login(Cypress.env("username"),Cypress.env("password"))
   });
   Given("A web browser is at the home page", () => {
     cy.visit('/#/app/home')

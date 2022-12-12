@@ -7,6 +7,8 @@ const {
 
 module.exports = defineConfig({
     env: {
+        username:'dmytromaslo@gmail.com',
+        password:'123456789!Pp'
     },
     defaultCommandTimeout:19000,
     //specPattern: "cypress/e2e/features/*.feature",
